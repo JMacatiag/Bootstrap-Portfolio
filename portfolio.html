@@ -1,43 +1,97 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>About | Jessie Macatiag</title>
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>About | Jessie Macatiag</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Bootstrap Javascript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-
+    <!-- Css link -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
-	<nav class="navbar navbar-default">
- 	<div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    	<div class="navbar-header">
-     	 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        	<span class="sr-only">Toggle navigation</span>
-        	<span class="icon-bar"></span>
-        	<span class="icon-bar"></span>
-        	<span class="icon-bar"></span>
-     	 </button>
-     	 <a class="navbar-brand" href="#">Jessie Macatiag</a>
-   		 </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
+        <a href="#" id= "name" class="navbar-brand d-flex w-50 mr-auto">Jessie Macatiag</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+        <div class="navbar-collapse collapse" id="collapsingNavbar3">
+         <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+         </ul>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
 
-    		<!-- Collect the nav links, forms, and other content for toggling -->
-   		 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-     		 <ul class="nav navbar-nav navbar-right">
-        		<li><a href="index.html">About </a></li>
-        		<li><a href="portfolio.html">Portfolio </a></li>
-        		<li><a href="contaact.html">Contact</a></li>
-     		 </ul>
-  		 </div><!-- /.navbar-collapse -->
- 	</div><!-- /.container-fluid -->
-	</nav>
+    <div class="container">
+        <div class="row">
 
+            <!-- Main body -->
+            <div class="col-md-8">
+
+                <!-- About me sub row -->
+                <div class="main-container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>About Me</h1>
+                    </div>
+                </div>
+
+                <!-- Content sub row -->
+                <div class="row">
+                    <div class="col-md-12">
+                        
+                    </div>
+                </div>
+            </div>
+
+            </div>
+
+            <!-- Sidebar -->
+            <div class="col-md-4 sidebar">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panelTitle">Connect With Me</h3>
+                    </div>
+                    <div class="panelContent">
+                        <a href="#"><img src="assets/images/github.png" class="img-thumbnail social" alt="GitHub" ></a>
+                        <a href="#"><img src="assets/images/linkedin.png" class="img-thumbnail social" alt="LinkedIn"></a>
+                        <a href="#"><img src="assets/images/stackoverflow.png" class="img-thumbnail social" alt="Stack Overflow" ></a>
+                    </div>
+                </div>
+            </div>
+            <!-- End sidebar -->
+
+        </div>  
+    </div>
+    <!-- End of container -->
+    
+    <footer>
+    <div class="row">
+        <div class="col-md-12">
+            Copyright &copy; 2017 Jessie Macatiag
+        </div>
+    </div>
+    </footer>
+
+
+
+     
 
 </body>
 </html>
