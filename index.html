@@ -2,46 +2,40 @@
 <html>
 <head>
 	<title>About | Jessie Macatiag</title>
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+	<!-- Bootstrap Javascript -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
 </head>
 <body>
-	<nav class="navbar navbar-default">
- 	<div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    	<div class="navbar-header">
-     	 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        	<span class="sr-only">Toggle navigation</span>
-        	<span class="icon-bar"></span>
-        	<span class="icon-bar"></span>
-        	<span class="icon-bar"></span>
-     	 </button>
-     	 <a class="navbar-brand" href="#">Jessie Macatiag</a>
-   		 </div>
-
-    		<!-- Collect the nav links, forms, and other content for toggling -->
-   		 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-     		 <ul class="nav navbar-nav navbar-right">
-        		<li><a href="index.html">About </a></li>
-        		<li><a href="portfolio.html">Portfolio </a></li>
-        		<li><a href="contaact.html">Contact</a></li>
-     		 </ul>
-  		 </div><!-- /.navbar-collapse -->
- 	</div><!-- /.container-fluid -->
+	<!-- Navbar -->
+	<nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
+    	<a href="/" class="navbar-brand d-flex w-50 mr-auto">Jessie Macatiag</a>
+    	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+       	 <span class="navbar-toggler-icon"></span>
+   		 </button>
+    	<div class="navbar-collapse collapse" id="collapsingNavbar3">
+        
+       	 <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+       	 </ul>
+  		</div>
 	</nav>
-
-	<!-- Page content -->
+	<!-- End of Navbar -->
+	
+	<!-- Body -->
 	<div class="container">
 		<div class="row">
 			<!-- About Me header -->
@@ -50,8 +44,7 @@
 					<h1>About Me</h1>
 				</div>
 			</div>
-			<!-- End of About Me Header -->
-
+			<!-- End About Me header -->
 			<!-- Aside -->
 			<div class="col-md-4">
 				<div class="panel panel-default">
@@ -64,8 +57,7 @@
 				</div>
 			</div>
 			<!-- end of aside -->
-		
-		
+
 			<!-- Picture and content -->
 			<div class="row">
   				<div class="col-md-4">
@@ -80,17 +72,19 @@
     				</div>
   				</div>
 			</div>
+			<!-- End of Picture and Content -->
+
 		</div>
 	</div>
+	<!-- End of body -->
 
-	<nav class="navbar navbar-default navbar-fixed-bottom">
-  <div class="container">
-    Copyright 2017 Jessie Macatiag
-  </div>
-</nav>
-		
-
-
+	<!-- Footer -->
+	<div class="footer">
+		<div class="col-md-12">
+			Copyright 2017 Jessie Macatiag
+		</div>
+	</div>
+	<!-- End Footer -->
 
 </body>
 </html>
